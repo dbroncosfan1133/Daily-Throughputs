@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<HTML lang="en-us">
+  <head meta charset="UTF-8">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel="stylesheet" href="assets/css/main.css">
+      <script  src="https://code.jquery.com/jquery-3.4.1.js"  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="  crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
+  </head>
+  
+  <body>
+    <div id="header">
+      <div class="row">
+        <div class="col">
+          <ul class="nav float-right no-print">
+            <li class="nav-item">
+              <a class="nav-link" href="etch.html">Etch</a>
+            </li>
+            <li class="nav-item"> 
+              <a class="nav-link" href="pmp.html">PreMask Prep</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="enig.html">ENIG</a>
+            </li>
+            <li class="nav-item"> 
+              <a class="nav-link" href="enigbaskets.html">ENIG Baskets</a>
+            </li>
+            <li class="nav-item">
+              <button class="btn btn-info button-style" type="button">Update Week</button> 
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col" id="dept">ENIG Baskets
+        </div>
+          <p id="week"></p>
+      </div>
+    </div>
+    <div class="col wrapper">
+      <canvas id="enigBasketThroughput" width="auto" height="auto"></canvas>
+    </div>
+    <script src="assets/javascript/main.js"></script>
+    <script src="assets/javascript/enigbaskets.js"></script>
+  </body>
+
+
+</HTML>

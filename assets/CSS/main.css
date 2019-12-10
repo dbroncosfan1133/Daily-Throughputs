@@ -1,0 +1,67 @@
+
+p {
+  text-align: center;
+  font-family: calibri;
+  font-size: 55px;
+  margin: 0;
+  padding: 20px 30px;
+}
+
+table {
+  font-family: calibri, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+text-align: center;
+font-weight: bold;
+border: 1px solid #b5b3b3;
+}
+
+td {
+border: 1px solid #b5b3b3;
+}
+
+#dept {
+  font-size: 46px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+#week {
+  font-size: 32px;
+  text-align: right;
+}
+
+#header {
+  width: 100%;
+  top: -8px;
+  left: -8px;
+  margin-bottom: 15px;
+  color: #000000;
+}
+
+.wrapper {
+  width: 100%;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.nav-link {
+  text-decoration: underline;
+}
+
+.align {
+  text-align: center;
+}
+
+#button-style {
+  margin: 15px;
+}
+  
+@media print {
+  .no-print {
+    visibility: hidden;
+  }
+}
